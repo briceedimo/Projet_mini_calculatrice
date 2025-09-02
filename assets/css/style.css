@@ -37,6 +37,9 @@ form .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
 }
 
 form .display input{
@@ -44,11 +47,14 @@ form .display input{
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+    color: #000;
 }
 
 form input.equal{
     width: 145px ;
 }
 
-
+form input.operator{
+    color: red;
+}
 
